@@ -1,0 +1,22 @@
+{
+  "api": "6",
+  "type": "anime",
+  "name": "hongguo",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+  "baseURL": "https://www.hongguoapp.cn/",
+  "searchURL": "https://www.hongguoapp.cn/vodsearch/-------------.html?wd=@keyword",
+  "searchList": "//div[@class='hg-grid']",
+  "searchName": "//p[@class='hg-title']",
+  "searchCoverImage": "//img[contains(@class,'hg-cover')]/@data-original",
+  "searchResult": "//a[@class='hg-card']",
+  "chapterRoads": "//ul[contains(@class,'hl-plays-list')]",
+  "chapterResult": "//a",
+  "referer": "https://www.hongguoapp.cn/"
+}
